@@ -17,7 +17,6 @@ namespace Alistirma6Cevap
             */
 
             List<int> liste = new List<int>();
-            int toplam = 0;
             while (true)
             {
                 Console.Write("Listeye eklenecek bir sayı giriniz (0 = Çıkış): ");
@@ -28,7 +27,6 @@ namespace Alistirma6Cevap
                         Console.WriteLine("İşlem sonlandırıldı! Oluşturulan liste ekrana yazdırılıyor...");
                         break;
                     }
-                    toplam += sayi;
                     liste.Add(sayi);
                 }
                 else
