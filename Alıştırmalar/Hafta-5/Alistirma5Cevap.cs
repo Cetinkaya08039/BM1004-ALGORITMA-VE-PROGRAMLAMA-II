@@ -6,9 +6,6 @@ namespace Alistirma5Cevap
         {
             /*
                 Kullanıcının girdiği List<int> içinde en küçük ve en büyük sayıyı bulun.
-
-
-                İlk sorudaki liste alma yapısı korunup ı.
             */
 
             List<int> liste = new List<int>();
