@@ -7,12 +7,10 @@ namespace Alistirma4Cevap
             /*
                 Kullanıcının girdiği List<int>'in ortalamasını hesaplayın ve ortalamadan büyük olanları listeleyin.
 
-
                 İlk sorudaki liste alma yapısı korunup ortalamadan büyük olan sayılar için ayrı bir liste oluşturuldu ve ekrana yazdırıldı.
             */
 
             List<int> liste = new List<int>();
-            int toplam = 0;
             while (true)
             {
                 Console.Write("Listeye eklenecek bir sayı giriniz (0 = Çıkış): ");
@@ -23,7 +21,6 @@ namespace Alistirma4Cevap
                         Console.WriteLine("İşlem sonlandırıldı! Oluşturulan liste ekrana yazdırılıyor...");
                         break;
                     }
-                    toplam += sayi;
                     liste.Add(sayi);
                 }
                 else
