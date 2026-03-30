@@ -8,7 +8,6 @@ namespace Alistirma12Cevap
             {
                 return 0;
             }
-            string str = n.Substring(1);
             return 1 + uzunluk_hesapla(n.Substring(1), sayac++);
         }
         static void Main(string[] args)
