@@ -1,4 +1,4 @@
-namespace Soru1Cevap
+namespace Alistirma1Cevap
 {
     internal class Program
     {
